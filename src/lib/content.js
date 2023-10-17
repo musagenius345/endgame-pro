@@ -16,7 +16,8 @@ import remarkToc from 'remark-toc';
 import remarkGithub from 'remark-github';
 import remarkGfm from 'remark-gfm';
 
-const remarkPlugins = [remarkToc, [remarkGithub, {repository: 'https://github.com/swyxio/swyxkit/'}], [remarkGfm, {repository: 'https://github.com/swyxio/swyxkit/'}],];
+// const remarkPlugins = [remarkToc, [remarkGithub, {repository: 'https://github.com/swyxio/swyxkit/'}], [remarkGfm, {repository: 'https://github.com/swyxio/swyxkit/'}],];
+const remarkPlugins = [remarkToc, [remarkGithub, {repository: 'https://github.com/musagenius345/endgame-pro/'}], [remarkGfm, {repository: 'https://github.com/musagenius345/endgame-pro/'}],];
 const rehypePlugins = [rehypeStringify, rehypeSlug, [rehypeAutoLink, {
     behavior: 'wrap', properties: {class: 'hover:text-yellow-100 no-underline'}
 }]];

@@ -1,8 +1,9 @@
 export const SITE_URL = 'https://musabadru.netlify.app';
-export const APPROVED_POSTERS_GH_USERNAME = ['swyxio'];
+export const APPROVED_POSTERS_GH_USERNAME = ['musagenius345'];
 export const GH_USER_REPO = 'musagenius345/endgame-pro'; // used for pulling github issues and offering comments
 export const SITE_TITLE = 'Musa\'s Blog';
-export const SITE_DESCRIPTION = "Musa Badru's Blog";
+export const SITE_DESCRIPTION = "Musa Badru";
+
 export const DEFAULT_OG_IMAGE =
 	'https://user-images.githubusercontent.com/6764957/147861359-3ad9438f-41d1-47c8-aa05-95c7d18497f0.png';
 export const MY_TWITTER_HANDLE = 'musagenius345';
