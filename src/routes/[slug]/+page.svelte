@@ -58,8 +58,8 @@
 	{#if json.subtitle}
 		<meta property="subtitle" content={json.subtitle} />
 	{/if}
-	<meta name="Description" content={json.description || 'swyxkit blog'} />
-	<meta property="og:description" content={json.description || 'swyxkit blog'} />
+	<meta name="Description" content={json.description || "Musa Blog"} />
+	<meta property="og:description" content={json.description || 'Musa blog'} />
 	<meta name="twitter:card" content={json.image ? 'summary_large_image' : 'summary'} />
 	<meta name="twitter:creator" content={'@' + MY_TWITTER_HANDLE} />
 	<meta name="twitter:title" content={json.title} />
@@ -77,7 +77,7 @@
 	<div
 		class="flex justify-between w-full mt-2 bg border-red sm:items-start md:flex-row md:items-center"
 	>
-		<p class="flex items-center text-sm text-gray-700 dark:text-gray-300">swyx</p>
+		<p class="flex items-center text-sm text-gray-700 dark:text-gray-300">Musa Badru</p>
 		<p class="flex items-center text-sm text-gray-600 dark:text-gray-400">
 			<a href={json.ghMetadata.issueUrl} rel="external noreferrer" class="no-underline" target="_blank">
 				<!-- <span class="mr-4 font-mono text-xs text-gray-700 text-opacity-70 dark:text-gray-300"
